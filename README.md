@@ -9,18 +9,6 @@ A complete, portfolio-ready project that demonstrates best practices for designi
 - Backup/export plan for network devices and recovery runbook
 - Troubleshooting playbooks with reproducible labs
 
-## 🗂 Repo Structure
-```
-.
-├── configs/                 # Sample router/switch/AP configs
-├── diagrams/                # Mermaid network diagram + exported PNG (optional)
-├── docs/                    # Design doc, troubleshooting, backup & recovery
-├── inventory/               # IP plan, device inventory, change log
-├── scripts/                 # Helper scripts (PowerShell/Bash)
-├── templates/               # Reusable templates for changes, incidents, tickets
-└── README.md
-```
-
 ## 🖼 Diagram (Mermaid)
 > Edit this diagram in-code or import into draw.io / GitHub's Mermaid renderer.
 
