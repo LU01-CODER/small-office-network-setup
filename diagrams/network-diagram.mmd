@@ -1,0 +1,20 @@
+%% Mermaid source for the network diagram
+%% You can paste this into Markdown or GitHub to render.
+flowchart LR
+  ISP[ISP] --> R1[Edge Router/NAT]
+  R1 --> FW[Firewall]
+  FW --> SW1[Core Switch]
+  SW1 --> AP1[Wi‑Fi AP]
+  SW1 --> PC1[User PC]
+  SW1 --> SV1[Server]
+  SW1 --> PR1[Printer]
+  SW1 --> MGMT1[Admin PC]
+
+  classDef users fill:#e7f5ff,stroke:#888;
+  classDef servers fill:#ffe8cc,stroke:#888;
+  classDef infra fill:#e6fcf5,stroke:#888;
+
+  PC1:::users
+  SV1:::servers
+  PR1:::infra
+  MGMT1:::infra

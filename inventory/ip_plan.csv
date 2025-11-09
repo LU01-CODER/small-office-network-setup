@@ -1,0 +1,7 @@
+Device,IP Address,VLAN,Role,Notes
+R1,"10.0.10.1/24, 10.0.20.1/24, 10.0.30.1/24, 10.0.40.1/24, 10.0.50.1/24",10/20/30/40/50,Gateway,Subinterfaces
+SW1,10.0.40.10,40,Switch Mgmt,Default GW 10.0.40.1
+AD/DNS,10.0.20.10,20,Directory/DNS,
+File/Print,10.0.20.20,20,File/Print,
+Printer-01,10.0.30.10,30,Printer,Static
+Admin-01,10.0.40.100,40,Admin,
