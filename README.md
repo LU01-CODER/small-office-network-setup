@@ -83,7 +83,3 @@ flowchart LR
 - [ ] Port security limits MACs on access ports
 - [ ] Backups exported and verified with restore test
 
----
-
-### 📜 License
-This project is MIT-licensed so you can fork, extend, and reuse.
