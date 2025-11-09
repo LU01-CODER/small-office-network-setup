@@ -68,12 +68,7 @@ flowchart LR
   AP1 --- GUEST1
 ```
 
-## ✅ Getting Started
-1. Review the **design** in `docs/design.md` and `diagrams/network-diagram.mmd`.
-2. Apply sample **configs** from `configs/` in a lab (GNS3, EVE-NG, Packet Tracer).
-3. Walk through **troubleshooting** in `docs/troubleshooting.md`.
-4. Practice **backup and recovery** using `docs/backup_recovery.md`.
-5. Track updates in `inventory/change_log.md`.
+
 
 ## 🧪 Validation Checklist
 - [ ] Inter-VLAN routing works as intended
